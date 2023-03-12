@@ -1,0 +1,15 @@
+.nav_bar{
+    border: 3px solid black;
+    background-color: lightblue;
+}
+.nav_bar nav{ 
+    background-color: rgb(51, 171, 204);
+    border-radius: 25px;
+
+}
+.nav_bar nav ul{
+    list-style: none;
+}
+.nav_bar nav ul li h2{
+    font-size: 35px;
+}
