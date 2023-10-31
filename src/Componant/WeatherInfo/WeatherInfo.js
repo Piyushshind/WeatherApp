@@ -1,28 +1,25 @@
 import React from 'react'
 import style from './weatharInfo.module.css'
 
-const WeatherInfo = ({data}) => {
+const WeatherInfo = ({ data }) => {
   return (
     <div className={style.wrapper}>
-   
-        {
+
+      {
         Object.keys(data).length > 0 &&
-            <>
-            <h2>City:{data?.name}</h2>
-            <h2>Temperature :{((data?.main?.temp) - 273.15).toFixed(2)}°C</h2>
-            <h3>Humidity : {data?.main?.humidity}</h3>
-            <h3>Pressure : {data?.main?.pressure}</h3>
-            
-            </>
-            
-           }
-        
-        
+        <>
+          <h2>City:{data?.name}</h2>
+          <h2>Temperature :{((data?.main?.temp) - 273.15).toFixed(2)}°C</h2>
+          <h3>Humidity : {data?.main?.humidity}</h3>
+          <h3>Pressure : {data?.main?.pressure}</h3>
+          <h3>Wind Speed : {data?.wind?.speed} m/s</h3>
+        </>
+      }
     </div>
   )
 }
 
-export default WeatherInfo
+export default WeatherInfo ;
 
 
 

@@ -5,15 +5,13 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 const Navbar = () => {
   return (
     <>
-    <header className={style.nav_bar}>
-     <nav>
-        <ul>
-            
-        <li><h2> <TiWeatherPartlySunny /> AccuWheather </h2> </li>
-        </ul>
-
-    </nav>
-    </header>
+      <header className={style.nav_bar}>
+        <nav>
+          <ul>
+            <li><h2> <TiWeatherPartlySunny /> AccuWheather </h2> </li>
+          </ul>
+        </nav>
+      </header>
     </>
   )
 }
