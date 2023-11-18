@@ -4,7 +4,6 @@ import style from './weatharInfo.module.css'
 const WeatherInfo = ({ data }) => {
   return (
     <div className={style.wrapper}>
-
       {
         Object.keys(data).length > 0 &&
         <>
@@ -19,7 +18,7 @@ const WeatherInfo = ({ data }) => {
   )
 }
 
-export default WeatherInfo ;
+export default WeatherInfo;
 
 
 
