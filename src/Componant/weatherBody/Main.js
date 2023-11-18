@@ -15,23 +15,11 @@ const Main = () => {
   }
   // console.log(data)
 
-  const handleChangeInput = (e) => {
-    setInputCity(e.target.value)
-
-
-  }
+  const handleChangeInput = e => setInputCity(e.target.value);
 
   const handleSearch = () => {
     wetherDetails(inputCity)
     setInputCity('')
-  }
-
-  function CheackCityName() {
-    // if(data?.name===inputCity){
-    //    return false
-    //  }else{
-    //     return true 
-    // }
   }
 
   return (
@@ -53,4 +41,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Main;
