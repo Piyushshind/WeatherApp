@@ -8,7 +8,7 @@ const Navbar = () => {
       <header className={style.nav_bar}>
         <nav>
           <ul>
-            <li><h2> <TiWeatherPartlySunny /> AccuWheather </h2> </li>
+            <li><h2> <TiWeatherPartlySunny /> {'\u00A0'} AccuWheather </h2> </li>
           </ul>
         </nav>
       </header>
