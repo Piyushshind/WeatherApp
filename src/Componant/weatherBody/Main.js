@@ -29,7 +29,7 @@ const Main = () => {
   function CheackCityName() {
     // if(data?.name===inputCity){
     //    return false
-    // }else{
+    //  }else{
     //     return true 
     // }
   }
