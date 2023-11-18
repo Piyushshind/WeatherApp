@@ -3,6 +3,7 @@ import style from './Navbar.module.css'
 import { TiWeatherPartlySunny } from "react-icons/ti";
 
 const Navbar = () => {
+  
   return (
     <>
       <header className={style.nav_bar}>
