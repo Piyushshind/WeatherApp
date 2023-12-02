@@ -13,7 +13,7 @@ const Main = () => {
       .then((dataa) => setData(dataa))
 
   }
-  // console.log(data)
+  //  console.log(data)
 
   const handleChangeInput = e => setInputCity(e.target.value);
 
